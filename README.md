@@ -5,3 +5,5 @@
 <br>
 
 <img src="https://github.com/thiagoAlves21/Estudo-responsivo/blob/master/teste-responsivo-sho/Capturar.PNG?raw=true">
+<br>
+<img src ="https://github.com/thiagoAlves21/Estudo-responsivo/blob/master/teste-responsivo-sho/Capturar2.PNG?raw=true">
