@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caixa{
+    height: 100vh;
+    width: 100vw;
+}
+.caixa-left{
+    display: inline-block;
+    width: 60%;
+    margin-top: 15%;
+    padding: 80px;
+}
+
+.caixa-right{
+    background-color: rgba(93, 93, 125, 0.5);
+    display: inline-block;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+img{
+    position: relative;
+    top: 25%;
+    right: 15%;
+}
+h1{
+    font-weight: 4000;
+    font-size: 70px;
+    line-height: 80px;
+    color: rgb(123, 114, 252);
+    width: 768px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(116, 125, 168);
+    opacity: 0.6;
+    width: 540px;
+    margin: 15px 0;
+}
+.GetStarted{
+    background-color: rgb(125, 67, 233);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 19px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 269px;
+    height: 48px;
+}
+.GetStarted:hover{
+    background-color: rgb(93, 43, 170);
+    transition: 0.3s;
+}
+a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 41px;
+    padding: 10px;
+}
+a:nth-child(2){
+    opacity: 0.6;
+}
+a:hover{
+    color: rgb(125, 67, 233);
+    transition: 0.3s;
+}
+a:active{
+    color: rgb(93, 43, 170);
+    text-decoration: underline;
+}
+header{
+    margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 912px) {
+    .caixa-left {
+        width: 100%;
+        padding: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .caixa-right {
+        height: auto;
+        width: 100%;
+        position: sticky;
+        display: block;
+        padding: 60px;
+    }
+    img{
+        position: sticky;
+        width: 90%;
+        padding: 10px;
+    }
+    header{
+        display: none
+     
+    }
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(116, 125, 168);
+        opacity: 0.6;
+        width: auto;
+        margin: 15px 50px;
+        text-align: center;
+    }
+    .GetStarted{
+        background-color: rgb(125, 67, 233);
+        color: white;
+        padding: 12px 24px;
+        border-radius: 19px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        width: 269px;
+        height: 48px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 40px;
+        
+    }
+    
+}
